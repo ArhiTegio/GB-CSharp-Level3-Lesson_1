@@ -69,6 +69,14 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Massage\MassageError.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Massage\MassageExit.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MessageSendCompletedDlg.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -79,6 +87,12 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Massage\MassageError.xaml.cs">
+      <DependentUpon>MassageError.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Massage\MassageExit.xaml.cs">
+      <DependentUpon>MassageExit.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MessageSendCompletedDlg.xaml.cs">
       <DependentUpon>MessageSendCompletedDlg.xaml</DependentUpon>
     </Compile>
