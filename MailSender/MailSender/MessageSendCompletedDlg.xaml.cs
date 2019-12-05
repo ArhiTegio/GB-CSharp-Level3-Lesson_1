@@ -13,7 +13,6 @@ namespace MailSender
         public MessageSendCompletedDlg(string mess)
         {
             InitializeComponent();
-
 	        MainLabel.Content = mess;
         }
 

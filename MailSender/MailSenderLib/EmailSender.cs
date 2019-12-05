@@ -16,20 +16,14 @@ namespace MailSenderLib
 		/// <exception cref="SmtpException"></exception>
 		public void Send(string strUser, string strPass)
 	    {
-			const string from = "user@yandex.ru";
-		    const string to = "user@gmail.com";
-
-		    const string server = "smtp.yandex.ru";
-
 		    try
 		    {
-			    using (var message = new MailMessage(from, to, "Test message", "Test messae body"))
-			    using (var client = new SmtpClient(server) { EnableSsl = true,
+			    using (var message = new MailMessage(GlobalValue.MailFromSent, GlobalValue.MailToSent, GlobalValue.MassageSubject, GlobalValue.MassageBody))
+			    using (var client = new SmtpClient(GlobalValue.Server) { EnableSsl = true,
 				    Credentials = new NetworkCredential(strUser, strPass) })
 			    {
 				    client.Send(message);
 			    }
-
 			}
 		    catch (SmtpException error)
 		    {

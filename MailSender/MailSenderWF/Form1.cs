@@ -8,6 +8,7 @@ namespace MailSenderWF
 {
     public partial class Form1 : Form
     {
+        Control control = new Control();
         public Form1()
         {
             InitializeComponent();
@@ -19,17 +20,11 @@ namespace MailSenderWF
 			WriteLine(a.Equals(b));
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e) => control.Send(textBox1.Text, textBox1.Text);        
+
+        private void Form1_Load(object sender, EventArgs e)
         {
-	        try
-	        {
-		        var send = new EmailSender();
-		        send.Send(textBox1.Text, textBox1.Text);
-	        }
-	        catch (Exception exception)
-	        {
-		        MessageBox.Show(exception.Message, "При отправке сообщения возникла ошибка");
-		    }
-		}
+
+        }
     }
 }

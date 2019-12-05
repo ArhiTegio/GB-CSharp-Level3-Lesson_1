@@ -8,22 +8,10 @@ namespace MailSender
 {
 	partial class MainWindow : Window
     {
+        Control control = new Control();
 		public MainWindow() => InitializeComponent();
 
-	    void Button_Click(object sender, RoutedEventArgs e)
-	    {
-		    try
-		    {
-			    var send = new EmailSender();
-			    send.Send(UserNameTextBox.Text, PasswordEdit.Password);
-		    }
-		    catch (Exception exception)
-		    {
-			    //MessageBox.Show(error.Message, "При отправке сообщения возникла ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
-			    var dlg = new MessageSendCompletedDlg(exception.Message);
-			    dlg.ShowDialog();
-		    }
-	    }
+	    void Button_Click(object sender, RoutedEventArgs e) => control.Send(UserNameTextBox.Text, PasswordEdit.Password);	    
 	}
 }
 
