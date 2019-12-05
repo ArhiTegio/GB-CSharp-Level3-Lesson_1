@@ -1,0 +1,16 @@
+C:\Users\Любовь\Desktop\MailSender\MailSenderWF\bin\Release\MailSenderWF.exe.config
+C:\Users\Любовь\Desktop\MailSender\MailSenderWF\bin\Release\MailSenderWF.exe
+C:\Users\Любовь\Desktop\MailSender\MailSenderWF\bin\Release\MailSenderWF.pdb
+C:\Users\Любовь\Desktop\MailSender\MailSenderWF\bin\Release\MailSender.exe
+C:\Users\Любовь\Desktop\MailSender\MailSenderWF\bin\Release\MailSenderLib.dll
+C:\Users\Любовь\Desktop\MailSender\MailSenderWF\bin\Release\MailSenderLib.pdb
+C:\Users\Любовь\Desktop\MailSender\MailSenderWF\bin\Release\MailSender.pdb
+C:\Users\Любовь\Desktop\MailSender\MailSenderWF\bin\Release\MailSender.exe.config
+C:\Users\Любовь\Desktop\MailSender\MailSenderWF\obj\Release\MailSenderWF.csprojAssemblyReference.cache
+C:\Users\Любовь\Desktop\MailSender\MailSenderWF\obj\Release\MailSenderWF.Form1.resources
+C:\Users\Любовь\Desktop\MailSender\MailSenderWF\obj\Release\MailSenderWF.Properties.Resources.resources
+C:\Users\Любовь\Desktop\MailSender\MailSenderWF\obj\Release\MailSenderWF.csproj.GenerateResource.cache
+C:\Users\Любовь\Desktop\MailSender\MailSenderWF\obj\Release\MailSenderWF.csproj.CoreCompileInputs.cache
+C:\Users\Любовь\Desktop\MailSender\MailSenderWF\obj\Release\MailSenderWF.csproj.CopyComplete
+C:\Users\Любовь\Desktop\MailSender\MailSenderWF\obj\Release\MailSenderWF.exe
+C:\Users\Любовь\Desktop\MailSender\MailSenderWF\obj\Release\MailSenderWF.pdb
