@@ -10,3 +10,8 @@ C:\Users\Любовь\Desktop\MailSender\MailSenderLib\obj\Release\MailSenderLib
 C:\Users\Любовь\Desktop\MailSender\MailSenderLib\obj\Release\MailSenderLib.csproj.CoreCompileInputs.cache
 C:\Users\Любовь\Desktop\MailSender\MailSenderLib\obj\Release\MailSenderLib.dll
 C:\Users\Любовь\Desktop\MailSender\MailSenderLib\obj\Release\MailSenderLib.pdb
+D:\Программирование\Проекты\GB-CSharp-Level3-Lesson_1\MailSender\MailSenderLib\bin\Release\MailSenderLib.dll
+D:\Программирование\Проекты\GB-CSharp-Level3-Lesson_1\MailSender\MailSenderLib\bin\Release\MailSenderLib.pdb
+D:\Программирование\Проекты\GB-CSharp-Level3-Lesson_1\MailSender\MailSenderLib\obj\Release\MailSenderLib.csprojAssemblyReference.cache
+D:\Программирование\Проекты\GB-CSharp-Level3-Lesson_1\MailSender\MailSenderLib\obj\Release\MailSenderLib.dll
+D:\Программирование\Проекты\GB-CSharp-Level3-Lesson_1\MailSender\MailSenderLib\obj\Release\MailSenderLib.pdb

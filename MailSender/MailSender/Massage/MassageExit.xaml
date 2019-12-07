@@ -6,6 +6,9 @@
         xmlns:local="clr-namespace:MailSender"
         mc:Ignorable="d"
         Title="Выход из программы" Height="150" Width="300" MaxHeight="150" MaxWidth="300">
+    <Window.Background>
+        <SolidColorBrush Color="Black"></SolidColorBrush>
+    </Window.Background>
     <Grid>
         <Border BorderBrush="Black" BorderThickness="1" Padding="1">
             <Grid>
@@ -14,12 +17,10 @@
                     <RowDefinition Height="40"/>
                 </Grid.RowDefinitions>
 
-                <TextBlock  Text="Работа программы завершена" VerticalAlignment="Center" FontSize="15" Grid.Row="0" Grid.Column="0" TextBlock.TextAlignment="Center" MaxWidth="300"> </TextBlock>
-                <Button Grid.Row="1" Grid.Column="0" Name="Ок" Height="40" Width ="100">
-                    <TextBlock Text="Ok">
+                <TextBlock  Text="Работа программы завершена?" Foreground="LightGray" VerticalAlignment="Center" FontSize="15" Grid.Row="0" Grid.Column="0" TextBlock.TextAlignment="Center" MaxWidth="300"></TextBlock>
+                <Button Grid.Column="0" Height="40" Width ="100" Margin="10,0,178,1" Grid.ColumnSpan="2" VerticalAlignment="Bottom" Grid.Row="1" Content="Да" Click="Exit"></Button>
+                <Button Height="40" Width ="100" Margin="178,0,10,1" VerticalAlignment="Bottom" Grid.Row="1" Content="Нет" Click="Wait"/>
 
-                    </TextBlock>
-                </Button>
             </Grid>
         </Border>
     </Grid>

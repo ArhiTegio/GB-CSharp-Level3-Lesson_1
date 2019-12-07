@@ -19,9 +19,25 @@ namespace MailSender
     /// </summary>
     public partial class MassageExit : Window
     {
-        public MassageExit()
+        MainWindow main = new MainWindow();
+
+        public MassageExit(MainWindow m)
         {
             InitializeComponent();
+            main = m;
+        }
+
+        private void Exit(object sender, RoutedEventArgs e)
+        {
+            Model.close = true;
+            Close();
+            main.Close();
+        }
+
+        private void Wait(object sender, RoutedEventArgs e)
+        {
+            Model.close = false;
+            Close();
         }
     }
 }

@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\shmac\Documents\!GB\C#3\L1\src\MailSender\MailSender\obj\Debug\
+D:\Программирование\Проекты\GB-CSharp-Level3-Lesson_1\MailSender\MailSender\obj\Debug\
 MailSender
 none
 false
 DEBUG;TRACE
-C:\Users\shmac\Documents\!GB\C#3\L1\src\MailSender\MailSender\App.xaml
-31156553166
+D:\Программирование\Проекты\GB-CSharp-Level3-Lesson_1\MailSender\MailSender\App.xaml
+10-644036605
 
-10736138572
-13-1662647192
-MainWindow.xaml;MessageSendCompletedDlg.xaml;ShinyBlue.xaml;
+11-1590470868
+17-191541652
+MainWindow.xaml;Massage\MassageError.xaml;Massage\MassageExit.xaml;MessageSendCompletedDlg.xaml;ShinyBlue.xaml;Themes\MetroDark\MetroDark.MSControls.Core.Implicit.xaml;Themes\MetroDark\MetroDark.MSControls.Toolkit.Implicit.xaml;Themes\MetroDark\Styles.Shared.xaml;Themes\MetroDark\Styles.WPF.xaml;Themes\MetroDark\Theme.Colors.xaml;
 
-False
+True
 

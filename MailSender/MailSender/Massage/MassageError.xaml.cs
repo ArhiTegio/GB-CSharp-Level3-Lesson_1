@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,17 +12,36 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.Runtime.CompilerServices;
 
 namespace MailSender
 {
     /// <summary>
     /// Логика взаимодействия для MassageError.xaml
     /// </summary>
-    public partial class MassageError : Window
+    public partial class MessageError : Window, INotifyPropertyChanged
     {
-        public MassageError()
+        private string message = "";
+        public string Message 
         {
-            InitializeComponent();
+            get { return message; }
+            set 
+            {
+                message = value;
+                NotifyPropertyChanged("Message");
+            }
         }
+        public MessageError(string message)
+        {
+            DataContext = this;
+            InitializeComponent();
+            Message = message;
+        }
+
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        private void NotifyPropertyChanged(string propertyName) => PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+
+        private void Exit(object sender, RoutedEventArgs e) => Close();        
     }
 }
